@@ -1,3 +1,8 @@
+'use strict';
+// Не впевнена, чи потрібно в цій задачі явне перетворення типів
+// function makeTransaction(quantity, pricePerDroid) {
+//     return `You ordered ${quantity} droids worth ${Number.parseInt(quantity) * Number.parseInt(pricePerDroid)} credits!`;
+// }
 function makeTransaction(quantity, pricePerDroid) {
     return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`;
 }

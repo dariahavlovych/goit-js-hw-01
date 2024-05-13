@@ -1,3 +1,8 @@
+'use strict';
+// Не впевнена, чи потрібно в цій задачі явне перетворення типів
+// function getShippingMessage(country, price, deliveryFee) { 
+//     return `Shipping to ${country} will cost ${Number.parseInt(price) + Number.parseInt(deliveryFee)} credits`;
+// }
 function getShippingMessage(country, price, deliveryFee) { 
     return `Shipping to ${country} will cost ${price + deliveryFee} credits`;
 }
